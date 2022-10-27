@@ -1,4 +1,5 @@
-name: "my-website"
+name: omics-test
+output_dir: docs
 navbar:
   title: "My Website"
   left:
@@ -6,3 +7,10 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "another tab"
+      href: another_tab.html
+    - text: "another tab2"
+      href: another_tab2.html
+    - text: "testing"
+      menu:
+        - text: "coming soon!"
